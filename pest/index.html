@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div id="top" class="navbar">
+    <div class="logo">
+    <a href="/">
+    <img src="./img/chats.png" alt="logo">
+    </a>
+    </div>
+    <div class="burger"><a  href="#!" onclick="openSidenav()">&#9776; </a></div>
+    
+    <ul class="navlinks">
+    <li><a href="/">Home</a></li>
+    <li><a href="./pages/about.html">About</a></li>
+    <li><a href="./pages/contact.html">Contact</a></li>
+    </ul>
+    </div>
+    
+    <div id="sideNav" class="sidenav">
+    <div class="closebtn"><a onclick="closeSidenav()" href="#!">&#10005;</a></div>
+     <a class="sidenav-headline" href="/">
+        <img src="../img/chats.png" alt="logo">
+        </a> 
+    <ul>
+    
+    <li class="sidenav-seperator"><a href="#!">Home</a></li>
+    <li class="sidenav-seperator"><a href="#!">About Us</a></li>
+    <li class="sidenav-seperator"><a href="#!">Contact</a></li>
+    
+    
+    </ul>    
+    </div>
+    <div class="jumbotron">
+        <div class="overlay">
+          <div class="jumbotron-content">
+            <h1>Welcome to Our Website</h1>
+            <p>Discover amazing features and experiences with us.</p>
+            <a href="./pages/about.html" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="post-creator">
+        <textarea id="post-input" placeholder="What's on your mind?"></textarea>
+        
+        <div id="mood-selector" required>
+            <div class="mood-option mood-positive-positive" data-mood="positive-positive">
+                Positively Positive 😄
+            </div>
+            <div class="mood-option mood-positive-negative" data-mood="positive-negative">
+                Positively Negative 😕
+            </div>
+            <div class="mood-option mood-negative-positive" data-mood="negative-positive">
+                Negatively Positive 🤨
+            </div>
+            <div class="mood-option mood-negative-negative" data-mood="negative-negative">
+                Negatively Negative 😞
+            </div>
+        </div>
+
+        <input type="file" id="image-upload" accept="image/*">
+        <div class="imgcontainer">        
+          <img id="image-preview" src="" alt="Image Preview" style="display:none;">
+</div>
+
+        <button id="post-button">Post</button>
+    </div>
+    
+    <div id="posts-container"></div>
+
+      <!-- Content Section -->
+      <section class="content-section">
+        <div class="container">
+          <h2>About Us</h2>
+          <p>
+            We are dedicated to providing you with the best experience. Our team works
+            tirelessly to bring innovative solutions and exceptional services to meet
+            your needs.
+          </p>
+      
+          <div class="features">
+            <div class="feature">
+              <h3>Feature One</h3>
+              <p>Learn about our unique solutions designed to make your life easier.</p>
+            </div>
+            <div class="feature">
+              <h3>Feature Two</h3>
+              <p>Discover why our customers love working with us.</p>
+            </div>
+            <div class="feature">
+              <h3>Feature Three</h3>
+              <p>Explore the cutting-edge technology behind our services.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<footer class="footer">
+
+
+<div class="flex-footer">
+<div class="footer-tablebox"> 
+<div class="footer-headline">text</div>
+<div class="footer-seperator"></div>
+<ul class="footer-navlink">
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text </a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+</ul>
+</div>
+<!--first tablebox stops here-->
+<div class="footer-tablebox"> 
+<div class="footer-headline">text</div>
+<div class="footer-seperator"></div>
+<ul class="footer-navlink">
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text </a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+</ul>
+</div>
+<!--seconds tablebox stops here-->
+<div class="footer-tablebox"> 
+<div class="footer-headline">text</div>
+<div class="footer-seperator"></div>
+<ul class="footer-navlink">
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text </a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+</ul>
+</div>
+<!--third tablebox stops here-->
+<div class="footer-tablebox" style="border-right:none ;border-bottom:none"> 
+<div class="footer-headline">text</div>
+<div class="footer-seperator"></div>
+<ul class="footer-navlink">
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text </a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+<li><a href="#!">text</a></li>
+<div class="footer-seperator"></div>
+</ul>
+</div>
+<!--fourth tablebox stops here-->
+
+
+</div>
+<hr style:
+color: white;    
+border: solid 1px;
+>
+
+
+<p style="color: #fff; text-align: center;">
+&#169; Text or its affiliated companies. All rights reserved. 
+</p>
+
+<div class="footer-logo-box">
+<a href="#top" class="logo-footer" style="color: #fff;">
+<img src="./img/chats.png" alt="">
+</a>
+</div>
+</footer>
+      
+<script src="./scripts/main.js"></script>
+<script src="./scripts/post.js"></script>
+
+</body>
+</html>
